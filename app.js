@@ -20,7 +20,7 @@ function getDataFromApi(searchTerm, callback) {
   };
   $.getJSON(SEARCH_URL, query, callback);
 }
-
+ 
 
 function renderResult(result) {
   var template = $(RESULT_HTML_TEMPLATE);
